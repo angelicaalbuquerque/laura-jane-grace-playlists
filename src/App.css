@@ -40,3 +40,39 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+/* A PARTIR DAQUI */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: Roboto, sans-serif; */
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.headerContainer {
+  background-color: #0f0f12;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.buttonCTA {
+  padding: 0.5rem;
+  font-size: 16px;
+  color: white;
+  background-color: #d014aa;
+}
