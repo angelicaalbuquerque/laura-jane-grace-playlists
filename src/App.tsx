@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="contentWrapper">
       <Header />
-      {/* <Hero />
-      <About /> */}
+      <Hero />
+      <About />
       <Playlists />
     </div>
   );
