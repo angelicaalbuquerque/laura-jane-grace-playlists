@@ -1,22 +1,26 @@
 import playlistsImg from "./../../assets/playlists.svg";
+import {
+  SectionPlaylistContainer,
+  CardPlaylistContainer,
+  PlaylistItems,
+} from "./style";
+
 import albumInfo from "./data";
 
 export const Playlists: React.FC<any> = () => {
   let albumData = albumInfo;
 
   return (
-    <section className="playlistSection">
+    <SectionPlaylistContainer>
       <div className="playlistContainer">
         <header className="playlistHeader">
-          <div className="playlistHeaderLeft">
-            <img width="60" src={playlistsImg} alt="icon" />
-            <h1 className="playlistTitle">Playlists</h1>
-          </div>
+          <img width="60" src={playlistsImg} alt="icon" />
+          <h1 className="playlistTitle">Playlists</h1>
         </header>
 
-        <div>
+        <CardPlaylistContainer>
           <h3 className="playlistSubtitle">2021</h3>
-          <section className="playlistItemsSection">
+          <PlaylistItems>
             {albumData.map((albumCover, index) => {
               return (
                 <div key={index} className="playlistCard">
@@ -32,9 +36,9 @@ export const Playlists: React.FC<any> = () => {
                 </div>
               );
             })}
-          </section>
-        </div>
+          </PlaylistItems>
+        </CardPlaylistContainer>
       </div>
-    </section>
+    </SectionPlaylistContainer>
   );
 };

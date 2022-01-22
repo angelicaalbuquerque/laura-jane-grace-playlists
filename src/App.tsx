@@ -9,8 +9,8 @@ function App() {
     <div className="contentWrapper">
       <Header />
       <Hero />
-      <About />
       <Playlists />
+      <About />
     </div>
   );
 }
