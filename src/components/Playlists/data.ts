@@ -71,6 +71,14 @@ let albumInfo = [
     albumMonth: "December",
     albumYear: "2021",
   },
+  {
+    imgUrl:
+      "https://mosaic.scdn.co/640/ab67616d0000b27307a108c53fe93f153e7508e4ab67616d0000b273176f9658ba8786833f1b9bddab67616d0000b273d471b15b435ffd047ebef806ab67616d0000b273dc0f8cbaa99193d73d67531f",
+    albumUrl:
+      "https://open.spotify.com/playlist/4wOLUaWvWQO04FNji1Q2sf?si=b9190f46602945cd",
+    albumMonth: "January",
+    albumYear: "2022",
+  },
 ];
 
 export default albumInfo;
