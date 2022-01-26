@@ -4,10 +4,9 @@ export const Header: React.FC<any> = () => {
       <h1>Laura's Playlists</h1>
       <nav>
         <ul className="linksContainer">
-          <li>About</li>
           <li>Playlists</li>
+          <li>About</li>
           <li>6 Questions</li>
-          <li>Next Event</li>
           <li>
             <button className="buttonCTA">Channel 66</button>
           </li>
