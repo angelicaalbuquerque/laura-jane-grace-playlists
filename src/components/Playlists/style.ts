@@ -2,18 +2,28 @@ import styled from "styled-components";
 
 export const ButtonLoadMore = styled.button`
   display: block;
-  background-color: #ffffff;
+  cursor: pointer;
+  background-color: transparent;
   font-weight: bold;
-  font-size: 1rem;
-  color: #191919;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  color: #f912f7;
   padding: 10px;
   margin: 20px auto 0;
   border: none;
   border-radius: 8px;
   transition: 0.3s;
 
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+  }
+
   &:hover {
-    background-color: #f912f7;
+    color: #ffffff;
   }
 `;
 

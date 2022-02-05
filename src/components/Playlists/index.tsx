@@ -57,7 +57,7 @@ export const Playlists: React.FC<any> = () => {
 
           {loadMore2021 === false && (
             <ButtonLoadMore onClick={() => loadMoreBtn()}>
-              load more
+              Load more
             </ButtonLoadMore>
           )}
         </CardPlaylistContainer>
