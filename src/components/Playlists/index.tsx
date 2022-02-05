@@ -5,6 +5,7 @@ import {
   SectionPlaylistContainer,
   CardPlaylistContainer,
   PlaylistItems,
+  ButtonLoadMore,
 } from "./style";
 
 import albumInfo from "./data";
@@ -55,7 +56,9 @@ export const Playlists: React.FC<any> = () => {
           </PlaylistItems>
 
           {loadMore2021 === false && (
-            <button onClick={() => loadMoreBtn()}>load more</button>
+            <ButtonLoadMore onClick={() => loadMoreBtn()}>
+              load more
+            </ButtonLoadMore>
           )}
         </CardPlaylistContainer>
 

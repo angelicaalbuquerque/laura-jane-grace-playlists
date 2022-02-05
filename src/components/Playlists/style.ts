@@ -1,6 +1,21 @@
 import styled from "styled-components";
 
-const Button = styled.button``;
+export const ButtonLoadMore = styled.button`
+  display: block;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #191919;
+  padding: 10px;
+  margin: 20px auto 0;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #f912f7;
+  }
+`;
 
 export const SectionPlaylistContainer = styled.section`
   background-color: #222222;
