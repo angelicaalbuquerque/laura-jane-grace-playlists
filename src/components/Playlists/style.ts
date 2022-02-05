@@ -45,7 +45,7 @@ export const PlaylistItems = styled.section`
   color: #f3f3f3;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
   gap: 2rem;
 `;
 
