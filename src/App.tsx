@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Hero />
       <Playlists />
-      <About />
+      {/* <About /> */}
     </div>
   );
 }
