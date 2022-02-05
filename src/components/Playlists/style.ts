@@ -47,6 +47,10 @@ export const PlaylistItems = styled.section`
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: repeat(3, 1fr); */
   gap: 2rem;
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 export const CardPlaylistContainer = styled.div`
