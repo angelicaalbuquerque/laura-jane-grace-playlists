@@ -43,19 +43,23 @@ export const HeaderContent = styled.div`
 `;
 
 export const ButtonVans = styled.button`
+  a {
+    color: #35ac79 !important;
+  }
+
   padding: 0.5rem;
   font-size: 1rem;
   font-weight: bold;
 
-  background-color: #35ac79;
+  /* background-color: #35ac79; */
+  background-color: transparent;
   border-radius: 4px;
-  border: none;
+  border: 1px solid #35ac79;
   &:hover {
-    background-color: #ffffff;
-  }
-
-  a {
-    color: #1e2b25 !important;
+    border: 1px solid white;
+    a {
+      color: white !important;
+    }
   }
 `;
 
