@@ -3,9 +3,11 @@ import styled from "styled-components";
 export const ButtonLoadMore = styled.button`
   display: block;
   cursor: pointer;
+
   background-color: transparent;
   font-weight: bold;
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   color: #f912f7;
   padding: 10px;
@@ -62,6 +64,7 @@ export const SectionPlaylistContainer = styled.section`
   .playlistSubtitle {
     font-size: 2rem;
     margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
   }
 `;
 
