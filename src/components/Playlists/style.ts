@@ -9,7 +9,7 @@ export const ButtonLoadMore = styled.button`
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
-  color: #f912f7;
+  color: #35ac79;
   padding: 10px;
   margin: 20px auto 0;
   border: none;

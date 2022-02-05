@@ -30,7 +30,7 @@ export const Playlists: React.FC<any> = () => {
   return (
     <SectionPlaylistContainer>
       <div className="playlistContainer">
-        <header className="playlistHeader">
+        <header className="playlistHeader" id="playlists">
           <img width="60" src={playlistsIcon} alt="icon" />
           <h1 className="playlistTitle">Playlists</h1>
         </header>

@@ -23,7 +23,11 @@ export const HeaderContent = styled.div`
   .linksContainer {
     display: flex;
     align-items: center;
+    font-size: 1rem;
     gap: 2rem;
+    & a:hover {
+      color: #35ac79;
+    }
   }
 
   @media (max-width: 800px) {
@@ -42,12 +46,16 @@ export const ButtonVans = styled.button`
   padding: 0.5rem;
   font-size: 1rem;
   font-weight: bold;
-  color: #1e2b25;
+
   background-color: #35ac79;
   border-radius: 4px;
   border: none;
   &:hover {
     background-color: #ffffff;
+  }
+
+  a {
+    color: #1e2b25;
   }
 `;
 

@@ -15,11 +15,24 @@ export const Header: React.FC<any> = () => {
           <img src={logo} alt="your new favorite song with Laura Jane Grace" />
           <nav>
             <ul className="linksContainer">
-              <li>Playlists</li>
-              <li>About</li>
-              <li>6 Questions</li>
               <li>
-                <ButtonVans>Channel 66</ButtonVans>
+                <a href="#playlists">Playlists</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#questions">6 questions</a>
+              </li>
+              <li>
+                <ButtonVans>
+                  <a
+                    href="https://www.vans.com/channel-66.html"
+                    target="_blank"
+                  >
+                    Channel 66
+                  </a>
+                </ButtonVans>
               </li>
             </ul>
           </nav>
