@@ -25,7 +25,7 @@ export const HeaderContent = styled.div`
     align-items: center;
     font-size: 1rem;
     gap: 2rem;
-    & a:hover {
+    & li a:hover {
       color: #35ac79;
     }
   }
@@ -55,7 +55,7 @@ export const ButtonVans = styled.button`
   }
 
   a {
-    color: #1e2b25;
+    color: #1e2b25 !important;
   }
 `;
 
