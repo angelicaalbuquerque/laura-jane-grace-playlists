@@ -56,7 +56,9 @@ export const ButtonVans = styled.button`
   border-radius: 4px;
   border: 1px solid #35ac79;
   &:hover {
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    background-color: #35ac79;
+    transition: 0.3s;
     a {
       color: white !important;
     }
